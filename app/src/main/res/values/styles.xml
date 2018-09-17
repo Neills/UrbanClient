@@ -2,45 +2,23 @@
 
 <resources>
 
+    <style name="LightTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
-    <style name="LightTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <style name="LightTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
-    </style>
-
-
-    <style name="LightTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
-
-    </style>
-
-
-    <style name="DarkTheme" parent="Theme.AppCompat.NoActionBar"></style>
-
+    <style name="DarkTheme" parent="Theme.AppCompat.NoActionBar"/>
 
     <style name="DarkTheme.NoTitle" parent="DarkTheme">
-
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-
         <item name="android:windowTranslucentStatus">true</item>
-
         <item name="android:windowTranslucentNavigation">true</item>
-
     </style>
 
-
-    <style name="LightTheme" parent="Theme.AppCompat.Light.NoActionBar">
-
-
-    </style>
-
+    <style name="LightTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
 
     <style name="LightTheme.NoTitle" parent="LightTheme">
-
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-
         <item name="android:windowTranslucentStatus">true</item>
-
         <item name="android:windowTranslucentNavigation">true</item>
-
-
     </style>
 </resources>
